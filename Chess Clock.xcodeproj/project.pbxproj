@@ -16,6 +16,9 @@
 		21D10E5B298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */; };
 		21DF9C0F298D82B600E48B8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 21DF9C0D298D82B600E48B8B /* README.md */; };
 		21DF9C10298D82B600E48B8B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 21DF9C0E298D82B600E48B8B /* LICENSE */; };
+		21DF9C12298D897200E48B8B /* GameClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF9C11298D897200E48B8B /* GameClock.swift */; };
+		21DF9C16298DACD200E48B8B /* PlayerClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF9C15298DACD200E48B8B /* PlayerClock.swift */; };
+		21DF9C17298DACD200E48B8B /* PlayerClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF9C15298DACD200E48B8B /* PlayerClock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,8 @@
 		21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		21DF9C0D298D82B600E48B8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		21DF9C0E298D82B600E48B8B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21DF9C11298D897200E48B8B /* GameClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameClock.swift; sourceTree = "<group>"; };
+		21DF9C15298DACD200E48B8B /* PlayerClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,7 @@
 			children = (
 				21D10E3D298D81D000CD4DD8 /* ChessClockApp.swift */,
 				21D10E3F298D81D000CD4DD8 /* ContentView.swift */,
+				21DF9C1B298DAD6100E48B8B /* TheGeme */,
 				21D10E41298D81D200CD4DD8 /* Assets.xcassets */,
 				21D10E43298D81D200CD4DD8 /* Preview Content */,
 			);
@@ -131,6 +137,15 @@
 				21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */,
 			);
 			path = "Chess ClockUITests";
+			sourceTree = "<group>";
+		};
+		21DF9C1B298DAD6100E48B8B /* TheGeme */ = {
+			isa = PBXGroup;
+			children = (
+				21DF9C11298D897200E48B8B /* GameClock.swift */,
+				21DF9C15298DACD200E48B8B /* PlayerClock.swift */,
+			);
+			path = TheGeme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF9C12298D897200E48B8B /* GameClock.swift in Sources */,
+				21DF9C16298DACD200E48B8B /* PlayerClock.swift in Sources */,
 				21D10E40298D81D000CD4DD8 /* ContentView.swift in Sources */,
 				21D10E3E298D81D000CD4DD8 /* ChessClockApp.swift in Sources */,
 			);
@@ -282,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF9C17298DACD200E48B8B /* PlayerClock.swift in Sources */,
 				21D10E5B298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift in Sources */,
 				21D10E59298D81D200CD4DD8 /* ChessClockUITests.swift in Sources */,
 			);
