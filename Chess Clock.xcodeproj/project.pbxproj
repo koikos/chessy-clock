@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2112FFCC29994BE0003915B1 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112FFCB29994BE0003915B1 /* DateExtension.swift */; };
+		215B381E298DDC16007EC14B /* CountdownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B381D298DDC16007EC14B /* CountdownTimerTests.swift */; };
+		21C61B88299634000016F511 /* ChessClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C61B87299634000016F511 /* ChessClock.swift */; };
 		21D10E3E298D81D000CD4DD8 /* ChessClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D10E3D298D81D000CD4DD8 /* ChessClockApp.swift */; };
 		21D10E40298D81D000CD4DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D10E3F298D81D000CD4DD8 /* ContentView.swift */; };
 		21D10E42298D81D200CD4DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D10E41298D81D200CD4DD8 /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		21D10E5B298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */; };
 		21DF9C0F298D82B600E48B8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 21DF9C0D298D82B600E48B8B /* README.md */; };
 		21DF9C10298D82B600E48B8B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 21DF9C0E298D82B600E48B8B /* LICENSE */; };
+		21DF9C12298D897200E48B8B /* ChessClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF9C11298D897200E48B8B /* ChessClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2112FFCB29994BE0003915B1 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		215B381D298DDC16007EC14B /* CountdownTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerTests.swift; sourceTree = "<group>"; };
+		21C61B87299634000016F511 /* ChessClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClock.swift; sourceTree = "<group>"; };
 		21D10E3A298D81D000CD4DD8 /* Chess Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D10E3D298D81D000CD4DD8 /* ChessClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClockApp.swift; sourceTree = "<group>"; };
 		21D10E3F298D81D000CD4DD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		21DF9C0D298D82B600E48B8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		21DF9C0E298D82B600E48B8B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21DF9C11298D897200E48B8B /* ChessClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 			children = (
 				21D10E3D298D81D000CD4DD8 /* ChessClockApp.swift */,
 				21D10E3F298D81D000CD4DD8 /* ContentView.swift */,
+				21DF9C1B298DAD6100E48B8B /* ChessClock */,
 				21D10E41298D81D200CD4DD8 /* Assets.xcassets */,
 				21D10E43298D81D200CD4DD8 /* Preview Content */,
 			);
@@ -120,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				21D10E4E298D81D200CD4DD8 /* ChessClockTests.swift */,
+				215B381D298DDC16007EC14B /* CountdownTimerTests.swift */,
 			);
 			path = "Chess ClockTests";
 			sourceTree = "<group>";
@@ -131,6 +141,16 @@
 				21D10E5A298D81D200CD4DD8 /* ChessClockUITestsLaunchTests.swift */,
 			);
 			path = "Chess ClockUITests";
+			sourceTree = "<group>";
+		};
+		21DF9C1B298DAD6100E48B8B /* ChessClock */ = {
+			isa = PBXGroup;
+			children = (
+				2112FFCB29994BE0003915B1 /* DateExtension.swift */,
+				21C61B87299634000016F511 /* ChessClock.swift */,
+				21DF9C11298D897200E48B8B /* ChessClockView.swift */,
+			);
+			path = ChessClock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2112FFCC29994BE0003915B1 /* DateExtension.swift in Sources */,
+				21DF9C12298D897200E48B8B /* ChessClockView.swift in Sources */,
 				21D10E40298D81D000CD4DD8 /* ContentView.swift in Sources */,
 				21D10E3E298D81D000CD4DD8 /* ChessClockApp.swift in Sources */,
+				21C61B88299634000016F511 /* ChessClock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D10E4F298D81D200CD4DD8 /* ChessClockTests.swift in Sources */,
+				215B381E298DDC16007EC14B /* CountdownTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chess Clock/Preview Content\"";
-				DEVELOPMENT_TEAM = RZTLL38LX7;
+				DEVELOPMENT_TEAM = FMG7K9MSAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chess Clock";
@@ -457,7 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chess Clock/Preview Content\"";
-				DEVELOPMENT_TEAM = RZTLL38LX7;
+				DEVELOPMENT_TEAM = FMG7K9MSAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chess Clock";
